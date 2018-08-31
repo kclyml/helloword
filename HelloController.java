@@ -44,6 +44,7 @@ public class HelloController {
 		String s=new String("dsad");
 		System.out.print(s);
 		lis.add(s);
+		s=null;
 		return map;
 	}
 }
