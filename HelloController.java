@@ -11,9 +11,17 @@ public class HelloController {
 	
 	@RequestMapping("/hello")
 	public Map sayHello(){
+		List<String> lis=new ArrayList();
 		Map map = new HashMap<String, String>();
-		map.put("法号", "空虚大师");
+		map.put("法号", "狼大师");
+		int a =0;
+		int b =1;
+		int c=a+b;
 		map.put("性别", "男");
+		map.put("法号", "狼大师");
+		String s=new String("dsad");
+		System.out.print(s);
+		lis.add(s);
 		return map;
 	}
 }
